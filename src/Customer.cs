@@ -6,7 +6,7 @@ namespace src
 {
     public class Customer
     {
-        private IList<decimal> articles;
+        private readonly IList<decimal> articles;
         private readonly ISaleStrategy _saleStrategy;
 
         public Customer(ISaleStrategy saleStrategy)
